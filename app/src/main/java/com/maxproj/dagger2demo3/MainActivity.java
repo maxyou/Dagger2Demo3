@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
         textview = (TextView)findViewById(R.id.textview);
 
         Car car = new Car();
-        textview.setText(car.getEngine().run());
+        textview.setText(car.getEngineA().run()+" "+car.getEngineB().run());
     }
 }
